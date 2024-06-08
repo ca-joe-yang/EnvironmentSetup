@@ -25,6 +25,12 @@ conda activate <ENV_NAME>
 conda install pytorch torchvision -c pytorch
 ```
 
+### Basic Packages
+```
+conda install -c conda-forge opencv ipython tqdm yacs matplotlib
+conda install -c anaconda scikit-image
+```
+
 ## Visual Studio Code Extensions
 - Remote-SSH
 
