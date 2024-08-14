@@ -40,3 +40,11 @@ conda install -c anaconda scikit-image
 ```shell
 sudo dpkg -i <PACKAGE_NAME.deb>
 ```
+
+
+### Github Enterprise
+```bash
+gh auth login -w
+gh auth token
+git clone https://${token}@github.com/${enterprise_name}/${repo_name}.git
+```
