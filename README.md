@@ -48,3 +48,14 @@ gh auth login -w
 gh auth token
 git clone https://${token}@github.com/${enterprise_name}/${repo_name}.git
 ```
+
+### Mac
+- install brew
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+- install `zsh`
+```bash
+
+```
+
