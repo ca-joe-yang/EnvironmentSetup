@@ -18,17 +18,9 @@ PATH=$PATH:/home/<USER>/anaconda3/bin
 source ~/.bashrc
 ```
 
-### Create
+### Create with basic packages
 ```
-conda create -n <ENV_NAME> python=<VERSION>
-conda activate <ENV_NAME>
-conda install pytorch torchvision -c pytorch
-```
-
-### Basic Packages
-```
-conda install -c conda-forge opencv ipython tqdm yacs matplotlib
-conda install -c anaconda scikit-image
+conda create -n <ENV_NAME> python=3.12 opencv pytorch torchvision torchaudio pytorch-cuda=12.1 yacs numba tqdm matplotlib seaborn scikit-image -c conda-forge -c pytorch -c nvidia -c
 ```
 
 ## Visual Studio Code Extensions
