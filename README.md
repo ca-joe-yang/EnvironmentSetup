@@ -23,6 +23,11 @@ source ~/.bashrc
 conda create -n <ENV_NAME> python=3.12 opencv pytorch torchvision torchaudio pytorch-cuda=12.1 yacs numba tqdm matplotlib seaborn scikit-image -c conda-forge -c pytorch -c nvidia -c
 ```
 
+### Export
+```
+conda env export | grep -v "^prefix: " > environment.yml
+```
+
 ## Visual Studio Code Extensions
 - Remote-SSH
 
