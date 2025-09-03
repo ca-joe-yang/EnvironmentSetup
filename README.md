@@ -20,8 +20,14 @@ source ~/.bashrc
 
 ### Create with basic packages
 ```
-conda create -n <ENV_NAME> python=3.12 opencv pytorch torchvision torchaudio pytorch-cuda=12.1 yacs numba tqdm matplotlib seaborn scikit-image -c conda-forge -c pytorch -c nvidia -c
 conda env create --name <ENV_NAME> --file=environments.yml
+
+
+
+pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu129
+conda install conda-forge::gh
+conda install opencv yacs numba tqdm matplotlib seaborn scikit-image -c conda-forge -c pytorch
+
 ```
 
 ### Export
