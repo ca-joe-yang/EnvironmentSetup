@@ -26,7 +26,7 @@ conda env create --name <ENV_NAME> --file=environments.yml
 
 pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu129
 conda install conda-forge::gh
-conda install opencv yacs numba tqdm matplotlib seaborn scikit-image -c conda-forge -c pytorch
+conda install gh opencv yacs numba tqdm matplotlib seaborn scikit-image -c conda-forge -c pytorch
 
 ```
 
