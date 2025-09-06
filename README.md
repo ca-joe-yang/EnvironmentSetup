@@ -63,3 +63,7 @@ git clone https://${token}@github.com/${enterprise_name}/${repo_name}.git
 
 ```
 
+### SSH
+```
+ssh-copy-id user@host
+```
