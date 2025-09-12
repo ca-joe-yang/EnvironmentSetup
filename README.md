@@ -21,7 +21,7 @@ source ~/.bashrc
 ### Create with basic packages
 ```
 conda env create --name <ENV_NAME> --file=environments.yml
-
+conda env create --file=URL
 
 
 pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu129
