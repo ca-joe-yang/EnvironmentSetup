@@ -67,3 +67,14 @@ git clone https://${token}@github.com/${enterprise_name}/${repo_name}.git
 ```
 ssh-copy-id user@host
 ```
+
+## VSCode
+
+```json
+{
+    "python.analysis.extraPaths": ["~/anaconda3/envs/XXXX/lib/python3.XX/site-packages"],
+    "flake8.args": [
+        "--max-line-length=120"
+    ]
+}
+```
